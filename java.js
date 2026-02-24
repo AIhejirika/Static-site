@@ -6,6 +6,7 @@ button.addEventListener("click", function() {
 // 3. When clicked, run this function:
 changeMessage();
 });
+
 function changeMessage() {
 // Change the text inside the div
 box.textContent = " You clicked! I have been changed by JavaScript!";
